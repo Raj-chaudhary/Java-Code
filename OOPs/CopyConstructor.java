@@ -1,5 +1,3 @@
-package OOPs;
-
 public class CopyConstructor {
     public static void main(String[] args) {
         Student s1 = new Student();

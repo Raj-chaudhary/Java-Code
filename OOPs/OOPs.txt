@@ -38,6 +38,17 @@ this is called Constructor overloading. and also it is an example of polyporphis
 ## Concept of OOPs / main pillers of OOPs
 
 1. Encapsulation: Encapsulation is defined as the wrapping up of data and methods under a single unit. It also implements data hiding. 
+
 2. Inheritance: Inheritance is when properties and methods of base class are passed on to a derived class.
+  --> 2.1 Singl Inheritance
+  --> 2.2 Multiple Inheritance
+  --> 2.3 Multilevel Inheritance
+  --> 2.4 Hierarchical Inheritance
+  --> 2.5 Hybrid Inheritance
 
+3. Polymorphism: Polymorphism is the ability of an object to take on multiple forms
+  ---> 3.1 Compile time polyporphism - Exp- method overloading
+  ---> 3.2 Runtime Polymorphism  -     Exp- method overriding
 
+  ** method overloading - Multiple fucntions with same name but different parameters 
+  ** method overriding - Parent and child classes both contain the same fucntion with a different definition.
