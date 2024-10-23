@@ -1,0 +1,54 @@
+# string comaprison(values)
+
+The Java String class equals() method compares the two given strings based on the content of the string. 
+If any character is not matched, it returns false. If all characters are matched, it returns true.
+
+example: String s1="javatpoint";  
+String s2="javatpoint";   
+System.out.println(s1.equals(s2));//true because content and case is same  
+
+
+# SubString
+
+The Java String class substring() method returns a part of the string.
+We pass beginIndex and endIndex number position in the Java substring method where beginIndex is inclusive,
+and endIndex is exclusive. In other words, the beginIndex starts from 0, whereas the endIndex starts from 1.
+
+Example: String s1="javatpoint";  
+System.out.println(s1.substring(2,4)); //returns va  
+System.out.println(s1.substring(2));  //returns vatpoint  
+
+
+#Concat
+The Java String class concat() method combines specified string at the end of this string. It returns a combined string. 
+It is like appending another string.
+
+Example: String str1 = "Hello";  
+        String str2 = "Javatpoint";  
+        String str3 = "Reader";  
+        // Concatenating Space among strings  
+        String str4 = str1.concat(" ").concat(str2).concat(" ").concat(str3);  
+        System.out.println(str4);
+
+
+# Compare the legth of String 
+The Java String class compareTo() method compares the given string with the current string lexicographically. 
+It returns a positive number, negative number, or 0.
+
+if s1 > s2, it returns positive number  
+if s1 < s2, it returns negative number  
+if s1 == s2, it returns 0  
+
+Example: 
+String st1 = new String("INDIA IS MY COUNTRY");  
+  
+// input string in lowercase  
+String st2 = new String("india is my country");  
+  
+System.out.println(st1.compareTo(st2));   // output is -32 which means str1 < str2 and compareTo is case sensitive 
+
+# What are anagrams?
+ If twostringscontain thesamecharactersbut inadifferentorder, theycanbesaidtobe
+ anagrams.Considerraceandcare. Inthiscase, race'scharacterscanbeformedintoastudy,
+ orcare'scharacterscanbeformedintorace.Belowisajavaprogramtocheckiftwostrings
+ are anagrams or not.

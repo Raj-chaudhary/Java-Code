@@ -1,0 +1,10 @@
+# How to solve star pattern problems
+
+1. Count the number of lines we need to print
+2. Count the number of star and space in every lines
+3. See how stars and spaces changes in every line 
+4. What we have to print
+5. Code it 
+ 
+
+ 

@@ -1,0 +1,42 @@
+## Object: Entities in real world
+## Classes: Group of these Entities or Blueprint of Object 
+
+## Access Modifier / Access specifier
+Access Modifier - within class  - within package  -  Outside package by subclass only  - Outside package
+
+1. Private      -     Y         -      N          -            N                       -      N
+2. Default      -     Y         -      Y          -            N                       -      N
+3. Protected    -     Y         -      Y          -            Y                       -      N
+1. Public       -     Y         -      Y          -            Y                       -      Y
+
+
+## Getter/setter
+Get - to return the value
+set - to modify the value
+
+This: This keyword is used to refer to the current Object
+
+
+
+## Constructor
+Constructor: Constructor is a special method which is invoked automatically at the time of object creation.
+
+1. It is used to initialize the values of instance variables.
+2. It is used to set the initial state of an object.
+3. Constructor have the same name as class or structure
+4. Constructor don't have a return type. (Not even a void)
+5. Constructor are only called once, at object creation
+6. memory allocation happens when Constructor is called.
+
+example: Pen p1 = new Pen();
+
+** Constructor overloading: When there are mutiple Constructor is created with different parameters
+with same name at that time main fucntion search the suitable Constructor as per the requirement and
+this is called Constructor overloading. and also it is an example of polyporphism
+
+
+## Concept of OOPs / main pillers of OOPs
+
+1. Encapsulation: Encapsulation is defined as the wrapping up of data and methods under a single unit. It also implements data hiding. 
+2. 
+

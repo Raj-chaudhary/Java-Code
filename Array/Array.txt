@@ -1,0 +1,7 @@
+Array: List of elements of the same type placed in a Contigous memory location
+Operations in Array: Create, input, output, update(change by reference)
+
+Time complexity:
+
+liner search - In worst case O(n)
+Binary search - In worst case O(logn)
