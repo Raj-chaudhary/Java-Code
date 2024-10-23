@@ -38,5 +38,6 @@ this is called Constructor overloading. and also it is an example of polyporphis
 ## Concept of OOPs / main pillers of OOPs
 
 1. Encapsulation: Encapsulation is defined as the wrapping up of data and methods under a single unit. It also implements data hiding. 
-2. 
+2. Inheritance: Inheritance is when properties and methods of base class are passed on to a derived class.
+
 
