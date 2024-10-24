@@ -1,6 +1,19 @@
 ## Object: Entities in real world
 ## Classes: Group of these Entities or Blueprint of Object 
 
+     java          - Private  - Default  -  Protected  -  Public
+1. Class           -    N     -    Y     -      N      -      Y
+2. Nested Class    -    Y     -    Y     -      Y      -      Y
+3. Constructor     -    Y     -    Y     -      Y      -      Y
+1. Method          -    Y     -    Y     -      Y      -      Y
+1. Field           -    Y     -    Y     -      Y      -      Y
+
+
+
+*** chile reference = child object
+
+
+
 ## Access Modifier / Access specifier
 Access Modifier - within class  - within package  -  Outside package by subclass only  - Outside package
 
