@@ -31,5 +31,6 @@ public class Pattern3 {
             st++;
             sp--;
         }
+        sc.close();
     }
 }
