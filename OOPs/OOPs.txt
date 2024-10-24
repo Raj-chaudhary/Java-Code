@@ -52,3 +52,9 @@ this is called Constructor overloading. and also it is an example of polyporphis
 
   ** method overloading - Multiple fucntions with same name but different parameters 
   ** method overriding - Parent and child classes both contain the same fucntion with a different definition.
+
+  ## package: package is a type of similar types of classes, interface and sub-packages.
+  1. Inbuilt packages
+  2. User defined packages
+
+  
