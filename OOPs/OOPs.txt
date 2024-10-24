@@ -50,6 +50,22 @@ this is called Constructor overloading. and also it is an example of polyporphis
   ---> 3.1 Compile time polyporphism - Exp- method overloading
   ---> 3.2 Runtime Polymorphism  -     Exp- method overriding
 
+4. Abstraction: hiding all the unnecessary details and showing only the important part to the user.
+
+---> Abstract class - ( a class that provides a base definition for multiple derived classes to share.) 
+- 1. Cannot create an instance of Abstract class 
+- 2. Can have Abstract/Non Abstract method
+- 3. Can have Constructors
+
+---> Interfaces - (Interface is a Blueprint of class)
+Reason of requirement of Interfaces is - Multiple Inheritance and total Abstraction
+- implement keyword is used to use interface
+- All methods are public, Abstract, & without implementation
+- used to acheive total Abstraction
+- variables in the interface are final, public, and static
+
+
+
   ** method overloading - Multiple fucntions with same name but different parameters 
   ** method overriding - Parent and child classes both contain the same fucntion with a different definition.
 
@@ -57,4 +73,8 @@ this is called Constructor overloading. and also it is an example of polyporphis
   1. Inbuilt packages
   2. User defined packages
 
-  
+## Static keyword: In java static keyword is used to share the same variable or method of a given class.
+- properties
+- fucntions
+- blocks
+- Nested classes
