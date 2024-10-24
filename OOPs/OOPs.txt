@@ -78,3 +78,9 @@ Reason of requirement of Interfaces is - Multiple Inheritance and total Abstract
 - fucntions
 - blocks
 - Nested classes
+
+
+## Super keyword: In java Super keyword is used to refer imediate parent class object
+- To access parent's properties
+- To access parent's fucntions
+- To access parent's Constructor
